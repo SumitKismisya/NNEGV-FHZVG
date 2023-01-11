@@ -1,0 +1,120 @@
+//NNEGV
+//The author of this code is Sumit Kumar Tursum.
+
+
+#include<stdio.h>
+#include<string.h>
+void main()
+{
+    char str1[10],str2[20],str3[20],str4[20],str5[20],str6[20],str7[20],str8[20],str9[20],str10[20],str11[20],str12[20],
+    str13[20],str14[20],str15[20],str16[20],str17[20],str18[20],str19[20],str20[20],str21[20],str22[20],str23[20],str24[20],str25[10],str26[20],str27[20],str28[20],str29[20],str30[20],str31[20];
+    clrscr();
+    printf("\nUnder Section 3 of THE AADHAAR (TARGETED DELIVRY OF FINANCIAL AND OTHER SUBSIDIES,BENEFITS AND SERVICES) ACT,2016(AADHAAR Act)");
+    printf("\n            AADHAAR ENROLMENT/CORRECTION/UPDATE FORM");
+    printf("\nAadhaar Enrolment and Mandatory biometric Update is free.No charges are applicable for from.In case of Correction/Update,provide your aadhaar Number(UID),Full Name and only that field which needs Correction/Update.");
+    printf("\nResident");
+    printf("Non-Resident Indian(NRI)");
+    printf("\n1.Pre Enrolment ID(if applicable):");
+    gets(str1);
+    printf("\n2.In case of Update provide Aadhaar Number(UID):");
+    gets(str2);
+    printf("\n3.Full Name:");
+    gets(str3);
+    printf("\n4.Gender:");
+    gets(str4);
+    printf("\n5.Age in DDMMYYYY:");
+    gets(str5);
+    printf("\n6.Address: C/o:");
+    gets(str6);
+    printf("\nHouse No.Bldg./Apt:");
+    gets(str7);
+    printf("\nStreet/Road/Lane:");
+    gets(str8);
+    printf("\nLandmark:");
+    gets(str9);
+    printf("\nArea/Locality/Sector:");
+    gets(str10);
+    printf("\nVillage/Twon/City:");
+    gets(str11);
+    printf("\nPost Office:");
+    gets(str12);
+    printf("\nDistrict:");
+    gets(str13);
+    printf("\nSub-District:");
+    gets(str14);
+    printf("\nState:");
+    gets(str15);
+    printf("\nE-Mail:");
+    gets(str16);
+    printf("\nMobile No.:");
+    gets(str17);
+    printf("\nPIN Code:");
+    gets(str18);
+    printf("\n7.Details of: Father Mother Guardian Husband wife\n:");
+    printf("\nFor children below 5 years Father/Mother/Guardian's details are mandatory.Adults can opt not specify this information.");
+    gets(str19);
+    printf("\nName:");
+    gets(str20);
+    printf("\nEID/Aadhaar No.:");
+    gets(str21);
+    printf("\nVerification Type:");  //Slect only one of the above.Slect Introducer or Head of Family only if you do not possess any documentry proof of identity and/or address.Introducer and Head of family details are not required in case of Document based verification.
+    gets(str22);
+    printf("\nA.POI B.POA C.DOB D.POR \n");
+    gets(str23);
+    printf("\nAadhaar No.:");
+    gets(str24);
+    printf("\nFor Hof Based-Details of: Father Mother Gaurdian Husband Wife:\n");
+    gets(str25);
+    printf("\nHoF's EID/Aadhaar No.:");
+    gets(str26);
+    printf("\nI hereby confirm the identity and address of____________________as being true,coorect and accurate.");
+    gets(str27);
+    printf("\nIntroducer/HoF's Name:");
+    gets(str28);
+    printf("\nSignature of Intoducer/HoF");
+    gets(str29);
+    printf("\nVerifier's Stamp and Signature:");
+    gets(str30);
+    printf("\nApplicant's signature/Thumprint:");
+    gets(str31);
+    printf("\n1.Pre Enrolment ID: %s",str1);
+    printf("\n2.Update provide Aadhaar Number(UID): %s",str2);
+    printf("\n3.Full name: %s",str3);
+    printf("\n4.Gender: %s",str4);
+    printf("\n5.Age in DDMMYYYY: %s",str5);
+    printf("\n6.Address C/o: %s",str6);
+    printf("\nHouse No.Bldg./Apt: %s",str7);
+    printf("\nStreet/Road/Lane: %s",str8);
+    printf("\nLandmark: %s",str9);
+    printf("\nArea/Locality/Sector: %s",str10);
+    printf("\nVillage/Twon/City: %s",str11);
+    printf("\nPost office: %s",str12);
+    printf("\nDistrict: %s",str13);
+    printf("\nSub-District: %s",str14);
+    printf("\nState: %s",str15);
+    printf("\nE-Mail: %s",str16);
+    printf("\nMobile No.: %s",str17);
+    printf("\nPIN Code: %s",str18);
+    printf("\n7.Details of: %s",str19);
+    printf("\nName: %s",str20);
+    printf("\nEID/Aadhaar No.: %s",str21);
+    printf("\nVerification Type: %s",str22);
+    printf("\n8.For Document Based(Write Names of the documents produced.Refer overleaf of this from for list of valid documents)");
+    printf("\n8.For Document Based: %s",str23);
+    printf("\nFor Introducer Based-Introducer's");
+    printf("\nAadhaar No.: %s",str24);
+    printf("\nFor HoF Based-Details of: Father Mother Guardian Husband Wife:  %s",str25);
+    printf("\nHoF's EID/Aadhaar No.:%s",str26);
+    printf("\nInsert your confirm judgement: %s",str27);
+    printf("\nIntroducer/HoF's Name: %s",str28);
+    printf("\nSignature of Introducer/HoF: %s",str29);
+    printf("\nDisclosure under section 3(2) of THE AADHAAR (TARGETED DELIVERY OF FINANCIAL AND OTHER SUBSIDIES, BENEFITS AND SERVICES) ACT, 2016");
+    printf("\nI confirm that I have been residing in India for at least 182 days in the preceding 12 months / I am Non Resident Indian (NRI) & information (including biometrics)");
+    printf("\provided by me to the UIDAI is my own and is true, correct and accurate. I am aware that my information including biometrics will be used for generation of Aadhaar");
+    printf("\and authentication. I understand that my identity information (except core biometric) may be provided to an agency only with my consent during authentication or as");
+    printf("\per the provisions of the Aadhaar Act. I have a right to access my identity information (except core biometrics) following the procedure laid down by UIDAI.");
+    printf("\nVerifier must put his/her Name,if stamp is not available");
+    printf("\nVerifier Signature: %s",str30);
+    printf("\nApplicant's signature %s",str31);
+    getch();
+}
